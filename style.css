@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    font-family: 'poppins', sans-serif;
+}
+  
+  :root {
+    --bodyBg: #ccc;
+  }
+  body {
+    background-color: var(--bodyBg);
+    height: 800px;
+ 
+   
+  }
+
+  h2{
+    color: azure;
+  }
+ i{
+    color:azure;
+ }
+ label{
+    color: azure;
+ } 
+  form {
+      /* Ajouter un arrière-plan flou */
+    background: transparent;
+    backdrop-filter: blur(10px);
+    /* Ajouter une bordure et des marges */
+    border: 2px solid #fff;
+    border-radius: 3rem; 
+  }
+  a {
+    text-decoration: none;
+  } 
+  main {
+    position: relative;
+    width: 80%;
+    height: max-content;
+    top: 10vh;
+    bottom: 10vh;
+    padding: 1rem;
+    background: url('background.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  
+    
+  }
+
+  .fa-xmark {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }
+  .fa-xmark:hover {
+    cursor: pointer;
+    color: var(--gmail);
+  }
+  .fa-circle-user,
+  .fa-key,
+  .fa-user,
+  .fa-envelope,
+  .fa-code {
+    border: 1px solid var(--customGray);
+    padding: 0.5rem;
+  }
+  
+   .alt-logIn {
+    padding: 0.6rem;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .space{
+    margin-left: 1rem;
+  }
+
+  .card{
+    margin: 2rem;
+    padding: 1rem;
+    background: transparent;
+    backdrop-filter: blur(10px);
+  }
+   .card-body{
+    background: transparent;
+    backdrop-filter: blur(10px);
+
+  }
+
+  .registration{
+    padding-top: 5rem;
+    
+  }
+  .connexion{
+    padding-top: 10rem;
+  }
+  /* Responsive  */
+  @media (max-width: 1000px) {
+    main {
+      max-width: 500px;
+      
+    }
+    main div:nth-child(3) {
+      display: none;
+     
+    }
+  }
+  /* Ajoutez des styles pour les petits écrans (moins de 576px) */
+@media (max-width: 575.98px) {
+    #register-form  {
+      width: 80%;
+      margin: 0 auto;
+      padding: 15px;
+    }
+  }
+   /* Ajoutez des styles pour les écrans moyens (entre 576px et 768px) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    #register-form {
+      width: 100%;
+      margin: 0 auto;
+      padding: 15px;
+    }
+  }
+    /* Ajoutez des styles pour les grands écrans (plus de 768px) */
+  @media (min-width: 768px) {
+    #register-form {
+      width: 100%;
+      margin: 0 auto;
+      padding: 15px;
+    }
+  }
