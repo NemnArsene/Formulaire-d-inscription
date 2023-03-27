@@ -38,24 +38,33 @@
                             <i class="fa-solid fa-circle-user " ></i
                             ><input
                               type="text"  id="username"    class="form-control space"  placeholder="User name" 
-                              title='Enter your user name'required
+                              title='Enter your user name'  required 
                                />
+                              
+                               
                         </div>
+                        <small id="error-text2"></small>
+
                         <div class="form-group d-flex p-0">
                             <i class="fa-solid fa-envelope"></i
                             ><input type="email" id="email" class="form-control space"  placeholder="Email" 
                             title='Enter your email'required
                             />
                         </div>
+                        <small id="error-text3"></small>
+                        
+                       
                         <div class="form-group d-flex p-0">
                           <i class="fa-solid fa-key"></i>
                           <input type="password" id="password" class="form-control space" placeholder="Password" title='Enter your password' required>
+                          
                           <div class='input-group-append'>
                             <button id='togglePassword' class='btn btn-outline-secondary space' type='button'>
                               <i id='eyeIcon1' class='fa fa-eye-slash'></i>
                             </button>
                           </div>
                         </div>
+                        <small id="error-text"></small>
                         
                         <div class="form-group d-flex p-0">
                           <i class="fa-solid fa-key"></i>
@@ -66,6 +75,8 @@
                             </button>
                           </div>
                         </div>
+                        <small id="error-text4"></small>
+
                         <div class="form-group d-flex p-0">
                             <input type="checkbox" id="terms" name="terms">
                             <label  class="space " for="terms">I accept the terms of use</label>

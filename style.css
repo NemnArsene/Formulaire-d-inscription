@@ -43,7 +43,7 @@
     top: 10vh;
     bottom: 10vh;
     padding: 1rem;
-    background: url('background.jpg')no-repeat;
+    background: url('/background\ 1.jpg')no-repeat;
     background-position: center;
     background-size: cover;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -79,7 +79,9 @@
   .space{
     margin-left: 1rem;
   }
-
+small{
+  color: red;
+}
   .card{
     margin: 2rem;
     padding: 1rem;
